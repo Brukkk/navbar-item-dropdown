@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Navbar dropdown item</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar_container">
+            <h1 class="logo">Nav<span>Drop</span></h1>
+            <ul class="navbar_menu">
+                <li class="navbar_item dropdown">
+                    <a href="" class="navbar_link">About me</a>
+                    <div class="dropdown-menu" >
+                        <a class="navbar_link" href="">Terms Conditions</a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="navbar_link" href="">Family</a>
+                    </div>
+                </li>
+                <li class="navbar_item"><a href="" class="navbar_link">Features</a></li>
+                <li class="navbar_item dropdown">
+                    <a href="" class="navbar_link ">Social media</a>
+                    <div class="dropdown-menu" >
+                        <a class="navbar_link" href="">Instagram</a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="navbar_link" href="">Twitter</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <script src="app.js"></script>
+</body>
+</html>
